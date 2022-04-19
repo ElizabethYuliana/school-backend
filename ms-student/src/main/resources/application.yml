@@ -1,0 +1,16 @@
+
+server:
+  port: 7002
+  servlet:
+    context-path: /ms-student
+  error:
+    include-message: always
+    include-binding-errors: always
+spring:
+  application:
+    name: ms-student
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://20.232.168.239:5432/school_db
+    username: postgres
+    password: Develop2022$
